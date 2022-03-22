@@ -1,12 +1,10 @@
 import type { Component } from 'solid-js';
 import { createSignal, Suspense, Switch, Match, useTransition } from 'solid-js';
-import { render } from 'solid-js/web';
 
 import Child from './child';
-import topNavBar from '../components/topPage/topNavBar';
 
 import logo from './logo.svg';
-import styles from './App.module.css';
+import './styles.css';
 
 const App: Component = () => {
 
@@ -19,14 +17,13 @@ const App: Component = () => {
 
   return (
   <>
-    <div class={styles.app}>
-
-      <nav class={styles.navbar}> 
-        <div class={styles.container}>
-          <div class={styles.navbar_logo}>
+    <div class="app">
+      <nav class="navbar"> 
+       <div class="container">
+          <div class="navbar_logo">
              <a href="#">kazu-gor</a>
           </div>
-          <div class={styles.navbar_menu}>
+          <div class="navbar_menu">
             <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#aboutme">About</a></li>
@@ -37,15 +34,15 @@ const App: Component = () => {
         </div>
       </nav>
 
-      <div class={styles.banner}>
-        <div class={styles.container_page}>
-          <h1 class={styles.logo_font} textContent="kazu-gor"/>
-          <img src={logo} class={styles.logo} alt="logo" />
+      <div class="banner">
+        <div class="container_page">
+          <h1 class="logo_font" textContent="kazu-gor"/>
+          <img src={logo} class="logo" alt="logo" />
           <p>created by SolidJS</p>
         </div>
       </div>
 
-      <div class={styles.icon}>
+      <div class="icon">
         <Show when={num() < 30} fallback={
           <div style={{
             "font-weight": 800,
@@ -63,12 +60,12 @@ const App: Component = () => {
         </Show>
       </div>
 
-      <div class={styles.main_title}>
+      <div class="main_title">
         <h1>Information</h1>
       </div>
 
-      <div class={styles.main_page}>
-        <ul class={styles.inline}>
+      <div id="main_page">
+        <ul class="inline">
           <li classList={{ selected: tab() === 0 }} onClick={updateTab(0)}>
             DataScience
           </li>
@@ -79,8 +76,8 @@ const App: Component = () => {
             Frontend
           </li>
         </ul>      
-        <div class={styles.tab} classList={{ pending: pending() }}>
-          <Suspense fallback={<div class={styles.loader}>Loading...</div>}>
+        <div class="tab" classList={{ pending: pending() }}>
+          <Suspense fallback={<div class="loader">Loading...</div>}>
             <Switch>
               <Match when={tab() === 0}>
                 <Child page="DataScience" />
@@ -100,5 +97,4 @@ const App: Component = () => {
   );
 };
 
-render(App, document.getElementById("root"));
 export default App;

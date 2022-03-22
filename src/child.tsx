@@ -1,10 +1,23 @@
 
 import { createResource } from "solid-js";
 
+
+const python = (
+  <div class="python">
+    <h1>Python</h1>
+    <ul>
+      <li className="python_list"><a href="">Python1</a></li>
+      <li className="python_list"><a href="">Python2</a></li>
+      <li className="python_list"><a href="">Python3</a></li>
+    </ul>
+  </div>
+)
+ 
 const CONTENT = {
-  DataScience: `Python`,
-  Infrastructure: `Kubernetes`,
-  Frontend: `SolidJS`,
+  // DataScience: <h1>Python</h1> ,
+  DataScience: python,
+  Infrastructure: <h1>Kubernetes</h1>,
+  Frontend: <h1>SolidJS</h1>,
 };
 
 function createDelay() {

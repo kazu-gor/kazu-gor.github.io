@@ -6,10 +6,12 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "sass": "^1.49.9",
     "scss": "^0.2.4",
     "typescript": "^4.6.2",
