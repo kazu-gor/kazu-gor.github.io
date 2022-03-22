@@ -3,12 +3,12 @@ import { createSignal, Suspense, Switch, Match, useTransition } from 'solid-js';
 import { render } from 'solid-js/web';
 
 import Child from './child';
+import topNavBar from '../components/topPage/topNavBar';
 
 import logo from './logo.svg';
 import styles from './App.module.css';
 
-// const App: Component = () => {
-const App = () => {
+const App: Component = () => {
 
   const [num, setNum] = createSignal(0);
   setInterval(() => setNum((num() + 1) % 100), 60);
