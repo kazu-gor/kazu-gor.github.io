@@ -3,7 +3,7 @@ import { createSignal, Suspense, Switch, Match, useTransition } from 'solid-js';
 
 import Child from './child';
 
-import logo from './logo.svg';
+import logo from '../src/assets/MyGorillaIcon.png';
 import './styles.css';
 
 const App: Component = () => {
@@ -20,18 +20,18 @@ const App: Component = () => {
     <div class="app">
       <nav class="navbar"> 
        <div class="container">
-          <div class="navbar_logo">
-             <a href="#">kazu-gor</a>
-          </div>
-          <div class="navbar_menu">
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#aboutme">About</a></li>
-              <li><a href="#vision">Vision</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+        <div class="navbar_logo">
+         <a href="#">kazu-gor</a>
         </div>
+        <div class="navbar_menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
       </nav>
 
       <div class="banner">
@@ -46,7 +46,7 @@ const App: Component = () => {
         <Show when={num() < 30} fallback={
           <div style={{
             "font-weight": 800,
-            "font-size": '30px'
+            "font-size": '30px',
           }}>
            Please Subscribe! 
           </div>

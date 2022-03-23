@@ -2,22 +2,41 @@
 import { createResource } from "solid-js";
 
 
-const python = (
-  <div class="python">
-    <h1>Python</h1>
-    <ul>
-      <li className="python_list"><a href="">Python1</a></li>
-      <li className="python_list"><a href="">Python2</a></li>
-      <li className="python_list"><a href="">Python3</a></li>
-    </ul>
+const ds_content = (
+  <div class="ds-content">
+    <h2>Python</h2>
+    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <h2>SQL</h2>
+    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
   </div>
 )
- 
+const infra_content = (
+  <div class="infra-content">
+    <h2>Kubernetes</h2>
+    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <h2>Docker</h2>
+    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+  </div>
+)
+const front_content = (
+  <div class="front-content">
+    <h2>HTML</h2>
+    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <h2>CSS</h2>
+    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <h2>JavaScript</h2>
+    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <h2>React</h2>
+    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <h2>SolidJS</h2>
+    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+  </div>
+)
+
 const CONTENT = {
-  // DataScience: <h1>Python</h1> ,
-  DataScience: python,
-  Infrastructure: <h1>Kubernetes</h1>,
-  Frontend: <h1>SolidJS</h1>,
+  DataScience: ds_content,
+  Infrastructure: infra_content,
+  Frontend: front_content
 };
 
 function createDelay() {

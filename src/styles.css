@@ -164,10 +164,10 @@ div {
 }
 
 .logo {
-  animation: logo-spin infinite 20s linear;
+  animation: logo-spin infinite 10s linear;
   height: 15vmin;
-  pointer-events: none;
-  padding: 10px 30px;
+  padding: 0px 0px;
+  transition-duration: 0.5s;
 }
 
 .icon {
