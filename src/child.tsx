@@ -5,31 +5,31 @@ import { createResource } from "solid-js";
 const ds_content = (
   <div class="ds-content">
     <h2>Python</h2>
-    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <p>TestTestTest</p>
     <h2>SQL</h2>
-    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <p>TestTestTest</p>
   </div>
 )
 const infra_content = (
   <div class="infra-content">
     <h2>Kubernetes</h2>
-    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <p>TestTestTest</p>
     <h2>Docker</h2>
-    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <p>TestTestTest</p>
   </div>
 )
 const front_content = (
   <div class="front-content">
     <h2>HTML</h2>
-    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <p>TestTestTest</p>
     <h2>CSS</h2>
-    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <p>TestTestTest</p>
     <h2>JavaScript</h2>
-    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <p>TestTestTest</p>
     <h2>React</h2>
-    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <p>TestTestTest</p>
     <h2>SolidJS</h2>
-    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+    <p>TestTestTest</p>
   </div>
 )
 
