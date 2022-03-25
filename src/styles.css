@@ -350,6 +350,9 @@ ul.inline li.selected {
       text-align: center;
   }
 
+  .container_page h1 {
+      font-size: 45px;
+  }
   .ja_lang {
     /* font-family: 'Dela Gothic One', cursive; */
     font-family: 'Murecho', sans-serif;
