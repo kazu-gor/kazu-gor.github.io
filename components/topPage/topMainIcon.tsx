@@ -1,4 +1,4 @@
-import logo from '../../src/assets/MyGorillaIcon.png'
+import logo from '../../src/assets/Gorilla_default.png'
 
 export default () => {
   return (
