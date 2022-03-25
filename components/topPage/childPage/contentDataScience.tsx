@@ -2,49 +2,34 @@ import { createSignal } from "solid-js";
 
 export default () => {
 
- return ( 
+  return ( 
     <>
       <div class="ds_content">
+
         <h2>Python</h2>
-        <ul>
-          <li class="python-genre">Crawling  </li>
-            <ul>
-              <li>BeautifulSoup4</li>
-              <li>BeautifulSoup4</li>
-              <li>BeautifulSoup4</li>
-              <li>BeautifulSoup4</li>
-            </ul>
-          <li class="python-genre">AI / ML</li>
-            <ul>
-              <li>Framework</li>
-              <ul>
-                <li>Pytorch</li>
-                <li>Pytorch</li>
-                <li>Pytorch</li>
-                <li>Pytorch</li>
-              </ul>
-            </ul>
-        </ul>
-         
-        
+
+        <h3>Crawling</h3>
+        <p>TestTestTest</p>
+
+        <p>TestTestTest</p>
+
+        <h3> AI / ML</h3>
+        <p>TestTestTest</p>
+
+        <p>TestTestTest</p>
+
+
         <h2>SQL</h2>
-        <ul>
-          <li class="sql-genre">PostgreSQL</li>
-            <ul>
-              <li>Test</li>
-              <li>Test</li>
-              <li>Test</li>
-              <li>Test</li>
-            </ul>
-          <li class="sql-genre">MySQL</li>
-            <ul>
-              <li>Test</li>
-              <li>Test</li>
-              <li>Test</li>
-              <li>Test</li>
-            </ul>
-        </ul>
+        <h2> PostgreSQL </h2>
+        <p>TestTestTest</p>
+
+        <p>TestTestTest</p>
+
+        <h2> MySQL </h2>
+        <p>TestTestTest</p>
         
+        <p>TestTestTest</p>
+
       </div>
     </>
   )

@@ -4,13 +4,15 @@ import { createResource } from "solid-js";
 import ContentDS from '../components/topPage/childPage/contentDataScience';
 import ContentIS from '../components/topPage/childPage/contentInfrastructure';
 import ContentFE from '../components/topPage/childPage/contentFrontend';
+import ContentVi from "../components/topPage/childPage/contentVim";
 
 
 const CONTENT = {
   DataScience: <ContentDS />,
   Infrastructure: <ContentIS />,
-  Frontend: <ContentFE />
-};
+  Frontend: <ContentFE />,
+  Vim: <ContentVi />,
+}
 
 function createDelay() {
   return new Promise((resolve) => {

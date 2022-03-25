@@ -3,7 +3,7 @@ import { createSignal, Suspense, Switch, Match, useTransition } from 'solid-js';
 
 import TopNavBar from '../components/topPage/topNavBar';
 import TopMainIcon from '../components/topPage/topMainIcon';
-import TopMainMotionLogo from '../components/topPage/topMainMotionLogo';
+import TopMainMotionLogo from '../components/topPage/topMainAnimetionLogo';
 import TopMainInfoTitle from '../components/topPage/topMainInfoTitle';
 import TopMainInfoTabBar from '../components/topPage/topMainInfoTabBar';
 
@@ -24,6 +24,7 @@ const App: Component = () => {
       <TopMainInfoTitle />
       <TopMainInfoTabBar />
     </div>
+
   </>
   );
 };

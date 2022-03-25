@@ -1,6 +1,4 @@
 
-
-
 .app {
   /* font-family: 'Bungee', cursive; */
   /* font-family: 'Lobster', cursive; */
@@ -55,7 +53,6 @@ div {
     display: inline-block;
     transition: all .3s ease 0s;
 }
-
 
 .navbar_logo a:hover {
     cursor: pointer;
@@ -213,6 +210,14 @@ div {
   min-height: 400px;
 }
 
+.tab-content {
+  text-align: center;
+  padding:0px 10rem;
+}
+.tab-content li {
+  list-style: none;
+}
+
 .pending {
   transition: color .3s;
   transition-delay: .1s;
@@ -221,6 +226,7 @@ div {
 }
 
 ul.inline{
+  text-align: center;
   list-style:none;
   padding: 0;
   margin-bottom:0;
@@ -392,6 +398,11 @@ ul.inline li.selected {
     to {
       transform: rotate(360deg);
     }
+  }
+
+  .tab-content {
+    text-align: center;
+    padding:0px .5rem;
   }
 }
 
