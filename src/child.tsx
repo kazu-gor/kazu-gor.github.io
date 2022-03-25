@@ -3,7 +3,7 @@ import { createResource } from "solid-js";
 
 import ContentDS from '../components/topPage/childPage/contentDataScience';
 import ContentIS from '../components/topPage/childPage/contentInfrastructure';
-import ContentFE from '../components/topPage/childPage/contentInfrastructure';
+import ContentFE from '../components/topPage/childPage/contentFrontend';
 
 
 const CONTENT = {
