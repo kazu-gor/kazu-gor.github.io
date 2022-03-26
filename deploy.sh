@@ -5,6 +5,11 @@ cd ~/Programming/website/solid-portfolio-app
 
 
 npm run build
+
+mkdir dist/static
+cd dist/static
+echo www.kazu-gor.com > CNAME
+
 npm run deploy
 
 git add .
