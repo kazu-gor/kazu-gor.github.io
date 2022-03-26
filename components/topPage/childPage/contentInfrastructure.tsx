@@ -5,7 +5,7 @@ export default () => {
 
  return ( 
     <>
-    <div class="infra-content">
+    <div class="content">
       <h2>Kubernetes</h2>
       <p>TestTestTest</p>
 

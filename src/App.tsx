@@ -8,6 +8,7 @@ import TopMainInfoTitle from '../components/topPage/topMainInfoTitle';
 import TopMainInfoTabBar from '../components/topPage/topMainInfoTabBar';
 
 import './styles.css';
+// import './styles.sass';
 
 const App: Component = () => {
 

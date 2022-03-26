@@ -2,14 +2,16 @@ import { createSignal } from "solid-js";
 
 export default () => {
 
+  const className = "content";
+
   return ( 
     <>
-      <div class="ds_content">
+      <div {... {className}}>
 
         <h2>Python</h2>
 
         <h3>Crawling</h3>
-        <p>TestTestTest</p>
+        <p>TestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest</p>
 
         <p>TestTestTest</p>
 

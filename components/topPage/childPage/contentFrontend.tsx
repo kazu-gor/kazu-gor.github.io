@@ -5,7 +5,7 @@ export default () => {
 
  return ( 
     <>
-      <div class="front-content">
+      <div class="content">
 
         <h2>HTML</h2>
         <p>TestTestTest</p>
