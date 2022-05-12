@@ -21,7 +21,6 @@ const App: Component = () => {
     <div class="app">
       <TopNavBar /> 
       <TopMainIcon />
-      <TopMainMotionLogo />
       <TopMainInfoTitle />
       <TopMainInfoTabBar />
     </div>

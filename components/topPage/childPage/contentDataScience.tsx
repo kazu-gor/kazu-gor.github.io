@@ -7,31 +7,9 @@ export default () => {
   return ( 
     <>
       <div {... {className}}>
-
         <h2>Python</h2>
-
-        <h3>Crawling</h3>
-        <p>TestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest</p>
-
-        <p>TestTestTest</p>
-
-        <h3> AI / ML</h3>
-        <p>TestTestTest</p>
-
-        <p>TestTestTest</p>
-
-
-        <h2>SQL</h2>
-        <h2> PostgreSQL </h2>
-        <p>TestTestTest</p>
-
-        <p>TestTestTest</p>
-
-        <h2> MySQL </h2>
-        <p>TestTestTest</p>
-        
-        <p>TestTestTest</p>
-
+        <h2>PostgreSQL</h2>
+        <h2>MySQL</h2>
       </div>
     </>
   )
