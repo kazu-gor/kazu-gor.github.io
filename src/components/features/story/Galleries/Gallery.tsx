@@ -1,7 +1,6 @@
-import { Date } from '@/components/common/Date';
+import { useState } from 'react';
 import { Image } from '@/components/common/Image';
 import { Link } from '@/components/common/Link';
-import React, { useState } from 'react';
 
 type Props = {
   title: string;
@@ -11,7 +10,7 @@ type Props = {
   slug: string;
 };
 
-export const Gallery = ({ title, coverImage, date, excerpt, slug }: Props) => {
+export const Gallery = ({ title, coverImage, slug }: Props) => {
 
   const [isHovered, setIsHovered] = useState(false);
 

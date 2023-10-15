@@ -1,6 +1,5 @@
 import { Home } from '@/components/pages/home';
 import { getAllPosts } from '@/lib/api';
-import React from 'react';
 
 type Props = React.ComponentPropsWithoutRef<typeof Home>;
 
