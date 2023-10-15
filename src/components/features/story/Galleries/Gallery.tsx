@@ -19,7 +19,6 @@ export const Gallery = ({ title, coverImage, date, excerpt, slug }: Props) => {
   const handleMouseLeave = () => setIsHovered(false);
 
   const imageClass = isHovered ? 'blur-sm' : '';
-  console.log("Slug value:", slug);
 
   return (
     <Link href={`/saunas/${slug}`}>
@@ -36,7 +35,7 @@ export const Gallery = ({ title, coverImage, date, excerpt, slug }: Props) => {
             className={`absolute top-0 left-0 w-full h-full object-cover ${imageClass}`}
           />
           {isHovered && (
-            <div className="absolute top-2/4 left-1/2 text-white font-bold text-sm md:text-base -translate-x-2/4 -translate-y-2/4">
+            <div className="absolute top-2/4 left-1/2 text-white font-bold text-xs -translate-x-2/4 -translate-y-2/4">
               {title}
             </div>
           )}
