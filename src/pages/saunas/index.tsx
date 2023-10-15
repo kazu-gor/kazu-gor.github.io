@@ -1,5 +1,5 @@
-import { Sauna } from '@/components/pages/sauna';
-import { getAllPosts } from '@/lib/sauna';
+import { Sauna } from '@/components/pages/saunas';
+import { getAllPosts } from '@/lib/saunas';
 
 type Props = React.ComponentPropsWithoutRef<typeof Sauna>;
 

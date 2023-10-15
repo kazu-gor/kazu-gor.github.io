@@ -1,6 +1,6 @@
 import { Posts } from '@/components/pages/posts';
 import markdownToHtml from '@/lib/markdownToHtml';
-import { getPostBySlug, getAllPosts } from '@/lib/saunas';
+import { getPostBySlug, getAllPosts } from '@/lib/meshis';
 
 type Props = React.ComponentPropsWithoutRef<typeof Posts>;
 

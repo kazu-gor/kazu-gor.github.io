@@ -5,9 +5,10 @@ type Props = {
   posts: PostType[];
   icon?: React.ReactElement;
   title: React.ReactNode;
+  nav: string;
 };
 
-export const Galleries = ({ posts }: Props) => {
+export const Galleries = ({ posts, nav }: Props) => {
   return (
     <section>
       <div className="vstack gap-8">
@@ -20,6 +21,7 @@ export const Galleries = ({ posts }: Props) => {
               date={post.date}
               slug={post.slug}
               excerpt={post.excerpt}
+              nav={nav}
             />
           ))}
         </div>

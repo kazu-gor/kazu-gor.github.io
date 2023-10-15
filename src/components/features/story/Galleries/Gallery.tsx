@@ -8,9 +8,10 @@ type Props = {
   date: string;
   excerpt: string;
   slug: string;
+  nav: string;
 };
 
-export const Gallery = ({ title, coverImage, slug }: Props) => {
+export const Gallery = ({ title, coverImage, slug, nav }: Props) => {
 
   const [isHovered, setIsHovered] = useState(false);
 
@@ -20,7 +21,7 @@ export const Gallery = ({ title, coverImage, slug }: Props) => {
   const imageClass = isHovered ? 'blur-sm' : '';
 
   return (
-    <Link href={`/saunas/${slug}`}>
+    <Link href={`/${nav}/${slug}`}>
       <a className="select-none overflow-hidden w-full h-full vstack md:flex-row cursor-pointer focus:outline-2 ">
         <div
           onMouseEnter={handleMouseEnter}
@@ -34,7 +35,7 @@ export const Gallery = ({ title, coverImage, slug }: Props) => {
             className={`absolute top-0 left-0 w-full h-full object-cover ${imageClass}`}
           />
           {isHovered && (
-            <div className="absolute top-2/4 left-1/2 text-white font-bold text-xs -translate-x-2/4 -translate-y-2/4">
+            <div className="absolute top-2/4 left-1/2 text-white font-bold text-sm -translate-x-2/4 -translate-y-2/4">
               {title}
             </div>
           )}
