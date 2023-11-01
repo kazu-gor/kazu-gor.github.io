@@ -56,23 +56,23 @@ export const Profile = () => (
     <HorizontalLine />
 
     <ContentTitle title="趣味" />
-    <p className="text-primary-1 text-center w-3/5">
+    <p className="text-primary-1 text-center w-full md:w-3/5">
         coming soon...
     </p>
 
     <ContentTitle title="経歴" />
-    <p className="text-primary-1 text-center w-3/5">
+    <p className="text-primary-1 text-center w-full md:w-3/5">
         coming soon...
     </p>
 
 
     <ContentTitle title="プログラミング略歴" />
-    <p className="text-primary-1 text-center w-3/5">
+    <p className="text-primary-1 text-center w-full md:w-3/5">
         coming soon...
     </p>
 
     <ContentTitle title="研究内容" />
-    <p className="text-primary-1 text-left w-3/5">
+    <p className="text-primary-1 text-left w-full md:w-3/5">
         研究目的は歯科パノラマX線写真から石灰化領域を効率的に検出し、
         動脈硬化の兆候を早期に発見するための自動化システムの開発することです。<br />
         石灰化領域は頸動脈付近によく現れ、動脈硬化の兆候として知られています。<br />
