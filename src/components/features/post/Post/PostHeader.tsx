@@ -1,16 +1,15 @@
-import { AiTwotoneTags } from 'react-icons/ai';
+// import { AiTwotoneTags } from 'react-icons/ai';
 import { Date } from '@/components/common/Date';
 import { Image } from '@/components/common/Image';
-import { Link } from '@/components/common/Link';
+// import { Link } from '@/components/common/Link';
 
 type Props = {
   title: string;
   coverImage: string;
   date: string;
-  tags: string[];
 };
 
-export const PostHeader = ({ title, coverImage, date, tags }: Props) => {
+export const PostHeader = ({ title, coverImage, date }: Props) => {
   return (
     <div className="vstack gap-4">
       <div className="w-full h-64 sm:h-80">

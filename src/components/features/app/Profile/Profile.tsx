@@ -38,7 +38,7 @@ function SnsIcon() {
     </div>
 }
 
-function ContentTitle({ title }) {
+function ContentTitle({ title }: { title: string }) {
     return <div className="gap-4 items-center">
           <h1 className="text-1xl font-semibold text-primary-1">{title}</h1>
       </div>

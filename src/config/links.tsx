@@ -1,9 +1,9 @@
 // import { AiOutlineInfoCircle } from 'react-icons/ai';
-import { BiImageAlt } from 'react-icons/bi';
+// import { BiImageAlt } from 'react-icons/bi';
 // import { FiTag, FiWind } from 'react-icons/fi';
-import { FiWind } from 'react-icons/fi';
-import { GiHotMeal } from 'react-icons/gi';
-import { RiRobot2Line } from 'react-icons/ri';
+// import { FiWind } from 'react-icons/fi';
+// import { GiHotMeal } from 'react-icons/gi';
+// import { RiRobot2Line } from 'react-icons/ri';
 import { LinkType } from '@/types/link';
 
 export const links: LinkType[] = [
