@@ -25,16 +25,6 @@ export const PostHeader = ({ title, coverImage, date, tags }: Props) => {
       </h1>
       <div className="wrap gap-4">
         <Date date={date} />
-        <div className="wrap gap-2">
-          <span className="select-none text-primary-1">
-            <AiTwotoneTags />
-          </span>
-          {tags.map((tag) => (
-            <Link key={tag} href={`/tags/${tag}`} passHref>
-              <a className="badge">{tag}</a>
-            </Link>
-          ))}
-        </div>
       </div>
     </div>
   );

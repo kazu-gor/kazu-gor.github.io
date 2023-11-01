@@ -15,7 +15,6 @@ export const Post: React.VFC<Props> = ({ post }) => {
         title={title}
         coverImage={coverImage}
         date={date}
-        tags={tags}
       />
       <PostBody content={content} />
     </div>

@@ -1,0 +1,22 @@
+.markdown-editor {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.markdown-input {
+  width: 48%;
+  height: 300px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.markdown-preview {
+  width: 48%;
+  height: 300px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
